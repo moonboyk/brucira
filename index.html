@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0&icon_names=menu" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
 </head>
 <body>
     <header>
@@ -17,7 +18,7 @@
             </div>
             <ul class="navbar-container">
                 <a href="#" class="contact-btn btn">Contact Us</a>
-                <a href="#" class="menu-btn btn"><img src="assets/menu-btn.svg" alt="dropdown-menu"></a>
+                <a href="#" class="menu-btn btn"><i class="fa-solid fa-bars"></i></a>
             </ul>
         </nav>
     </header>
@@ -34,7 +35,7 @@
                 </div>
             </div>
             <div class="hero-img-container grid-2">
-                <img src="assets/hero_img.png" alt="">
+                <img src="assets/hero_img.svg" alt="">
             </div>
         </section>
 
@@ -62,18 +63,19 @@
                 <p>Interact with your users on the platform they prefer. Web and Mobile - We Have you COVERED</p>
                 <div class="services-provided-layout">
                     <h2>Services Provided by Brucira</h2>
-                    <div class="services-details">
-                        <ul>
-                            <li>UI & UX Design</li>
-                            <li>Mobile App Design</li>
-                            <li>Product Management</li>
-                            <li>Web Development</li>
-                            <li>Content Creation</li>
-                            <li>Social Media Management</li>
-                            <li>Web Design</li>
-                            <li>Digital Marketing</li>
-                            <li>Video Editing</li>
-                            <li>Graphics Designing</li>
+                    <div>
+                        <ul class="services-details">
+                            <li> <i class="fa-solid fa-check"></i> UI Design</li>
+                            <li> <i class="fa-solid fa-check"></i> UX Design</li>
+                            <li> <i class="fa-solid fa-check"></i> Mobile App Design</li>
+                            <li> <i class="fa-solid fa-check"></i> Product Management</li>
+                            <li> <i class="fa-solid fa-check"></i> Web Development</li>
+                            <li> <i class="fa-solid fa-check"></i> Content Creation</li>
+                            <li> <i class="fa-solid fa-check"></i> Social Media Management</li>
+                            <li> <i class="fa-solid fa-check"></i> Web Design</li>
+                            <li> <i class="fa-solid fa-check"></i> Digital Marketing</li>
+                            <li> <i class="fa-solid fa-check"></i> Video Editing</li>
+                            <li> <i class="fa-solid fa-check"></i> Graphics Designing</li>
                         </ul>
                     </div>
                 </div>
@@ -83,12 +85,14 @@
 
         <!-- case study layout -->
         <section class="case-study-layout" id="case-study">
-            <h2> -- Case Studies -- </h2>
-            <div class="case-study-main">
+
+            <h2 class="animate-show"> -- Case Studies -- </h2>
+
+            <div class="case-study-main animate-show">
                 <div class="case-study-image">
                     <img src="assets/case_study_main.png" alt="case-study">
                 </div>
-                <div class="case-study-description">
+                <div class="case-study-description animate-show">
                     <h1>
                         Illustrstion for City One App.
                     </h1>
@@ -131,14 +135,18 @@
                     <h3>We have More awesome stuffs to show</h3>
                 </div>
                 <div class="stuffs-button">
-                    <a href="#" class="redirect-btn btn"><img src="assets/stuffs-arrow.svg" alt="stuffs-to-show"></a>
+                    <a href="#" class="redirect-btn btn"><i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </section>
 
         <!-- top clients layout -->
+
         <section class="clients" id="clients">
+
             <h2> -- Our Top Clients -- </h2>
+
+
             <div class="clients-card-container">
                 <div class="clients-card">
                         <img src="assets/client1.svg" alt="onduo-by-google"> 
@@ -188,10 +196,8 @@
                     <li><a href="#">Process</a></li>
                 </ul>
             </div>
-        </div>
-
-        <a href="#hero-section" class="redirect-btn btn"><img src="assets/stuffs-arrow.svg" alt="hero-section"></a>
-        
+            <a href="#hero-section" class="redirect-btn btn"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>        
     </footer>
 
 
