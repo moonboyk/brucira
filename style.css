@@ -306,6 +306,7 @@ nav{
     max-width: 300px;
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 
@@ -366,7 +367,6 @@ nav{
 
 .clients-card:hover{
     transform: scale(1.05);
-    box-shadow: 10px 10px 5px 2px var(--tertiary-color);
 }
 
 .clients-card img{
